@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flask App Test</title>
+</head>
+<body>
+	<h1>
+		Flask App
+	</h1>
+
+	{% for post in posts %}
+		<p>{{post.title}}</p>
+		<p>{{post.content}}</p>
+	(% endfor %)
+
+</body>
+</html>
